@@ -3,9 +3,11 @@
   "version": "0.0.1",
   "files": ["dist"],
   "type": "module",
+  "main": "dist/lib.js",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
+    "build:lib": "vite build && npm pack",
     "lib": "npm pack"
   },
   "dependencies": {
